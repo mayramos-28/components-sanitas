@@ -1,0 +1,14 @@
+<div class="nutritional-card" style="background-image: url('{{recipe.image}}');" (click)="changeSide()">
+    <div class="nutritional-card--header">
+        <div class="icon-reload" *ngIf="isSidea" >icon1</div>
+        <div class="icon-porsions" *ngIf="!isSidea">icon2</div>
+    </div>
+    <div class="nutritional-card--body" >
+        <div class="side-a" *ngIf="isSidea">
+            {{recipe.nombre}}
+            nombre
+        </div>
+        <div class="side-b" *ngIf="!isSidea">
+            cara b
+    </div>
+</div>

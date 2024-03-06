@@ -1,0 +1,6 @@
+
+<swiper-container slides-per-view="2.1" speed="500" loop="true" css-mode="true" pagination="true">
+    <swiper-slide *ngFor="let recipe of recipes" class="mi-swiper-slide">
+        <app-nutritional-card [recipe]="recipe"></app-nutritional-card>
+    </swiper-slide>
+</swiper-container>

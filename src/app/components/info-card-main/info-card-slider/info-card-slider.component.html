@@ -1,0 +1,5 @@
+<swiper-container class="" slides-per-view="1" speed="500" loop="true" css-mode="true" pagination="true">
+    <swiper-slide *ngFor="let config of configs" class="mi-swiper-slide col col-sm-11 col-md-8 col-l-6 col-xl-4">
+        <app-info-card [config]="config"></app-info-card>
+    </swiper-slide>
+</swiper-container>
